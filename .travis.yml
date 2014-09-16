@@ -25,13 +25,13 @@ install:
   # Build Codebase
   - mkdir private_files
   - mkdir profiles
-  - mv fond-build profiles/vies_dk
+  - mv fond-build profiles/fond-build
   - mkdir drupal
   - mv profiles drupal/
 
   # Test the current branch
   - cd drupal
-  - drush make --prepare-install profiles/vies_dk/build-fond.make --yes
+  - drush make --prepare-install profiles/fond-build/build-fond.make --yes
   - drush dl panopoly_demo-1.x-dev
   - cd ../
 
