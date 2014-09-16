@@ -62,5 +62,9 @@ before_script:
 
 script:
 
+  # Test if any features are overridden.
+  - ../../scripts/check-overridden.sh
+
+  # Run Behat tests
   - ./bin/behat --config behat.travis.yml
 
