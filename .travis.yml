@@ -25,7 +25,7 @@ install:
   # Build Codebase
   - mkdir private_files
   - mkdir profiles
-  - mv vies-build profiles/vies_dk
+  - mv fond-build profiles/vies_dk
   - mkdir drupal
   - mv profiles drupal/
 
