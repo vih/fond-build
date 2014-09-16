@@ -58,7 +58,7 @@ before_script:
   - drush en fond_deploy -y
   - drush runserver --server=builtin 8888 > /dev/null 2>&1 &
   - until netstat -an 2>/dev/null | grep '8888.*LISTEN'; do true; done
-  - cd profiles/vies_dk/tests/behat
+  - cd profiles/fond-build/tests/behat
 
 script:
 
