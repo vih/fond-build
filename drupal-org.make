@@ -22,6 +22,13 @@ projects[fond_deploy][download][url] = "https://github.com/vih/fond_deploy.git"
 projects[fond_deploy][download][branch] = "7.x-1.x"
 projects[fond_deploy][download][revision] = "5520f2b"
 
+projects[donation][type] = "module"
+projects[donation][subdir] = "vih"
+projects[donation][download][type] = "git"
+projects[donation][download][url] = "https://github.com/vih/vih_plugins.git"
+projects[donation][download][branch] = "7.x-1.x"
+projects[donation][download][revision] = "b5cd1bb0a0f6c622a95b8ca239ee9fc43089633d"
+
 projects[donation][type] = "theme"
 projects[donation][subdir] = "fond"
 projects[donation][download][type] = "git"
