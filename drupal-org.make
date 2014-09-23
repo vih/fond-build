@@ -13,7 +13,7 @@ projects[fond_commerce][subdir] = "fond"
 projects[fond_commerce][download][type] = "git"
 projects[fond_commerce][download][url] = "https://github.com/vih/fond_commerce.git"
 projects[fond_commerce][download][branch] = "7.x-1.x"
-projects[fond_commerce][download][revision] = "1b42637"
+projects[fond_commerce][download][revision] = "1309394"
 
 projects[fond_deploy][type] = "module"
 projects[fond_deploy][subdir] = "fond"
