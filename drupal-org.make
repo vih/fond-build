@@ -1,6 +1,8 @@
 api = 2
 core = 7.x
 
+; Custom modules
+
 projects[fond_admin][type] = "module"
 projects[fond_admin][subdir] = "fond"
 projects[fond_admin][download][type] = "git"
@@ -28,6 +30,8 @@ projects[vih_plugins][download][type] = "git"
 projects[vih_plugins][download][url] = "https://github.com/vih/vih_plugins.git"
 projects[vih_plugins][download][branch] = "7.x-1.x"
 projects[vih_plugins][download][revision] = "b5cd1bb0a0f6c622a95b8ca239ee9fc43089633d"
+
+; Custom themes
 
 projects[donation][type] = "theme"
 projects[donation][subdir] = "fond"
