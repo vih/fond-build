@@ -15,7 +15,7 @@ projects[fond_commerce][subdir] = "fond"
 projects[fond_commerce][download][type] = "git"
 projects[fond_commerce][download][url] = "https://github.com/vih/fond_commerce.git"
 projects[fond_commerce][download][branch] = "7.x-1.x"
-projects[fond_commerce][download][revision] = "b638d41461d7c59a65f567529a20fba3510cf24b"
+projects[fond_commerce][download][revision] = "a141987"
 
 projects[fond_deploy][type] = "module"
 projects[fond_deploy][subdir] = "fond"
