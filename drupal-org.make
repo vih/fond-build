@@ -1,6 +1,8 @@
 api = 2
 core = 7.x
 
+; Custom modules
+
 projects[fond_admin][type] = "module"
 projects[fond_admin][subdir] = "fond"
 projects[fond_admin][download][type] = "git"
@@ -13,7 +15,7 @@ projects[fond_commerce][subdir] = "fond"
 projects[fond_commerce][download][type] = "git"
 projects[fond_commerce][download][url] = "https://github.com/vih/fond_commerce.git"
 projects[fond_commerce][download][branch] = "7.x-1.x"
-projects[fond_commerce][download][revision] = "1309394"
+projects[fond_commerce][download][revision] = "a141987"
 
 projects[fond_deploy][type] = "module"
 projects[fond_deploy][subdir] = "fond"
@@ -29,9 +31,11 @@ projects[vih_plugins][download][url] = "https://github.com/vih/vih_plugins.git"
 projects[vih_plugins][download][branch] = "7.x-1.x"
 projects[vih_plugins][download][revision] = "b5cd1bb0a0f6c622a95b8ca239ee9fc43089633d"
 
+; Custom themes
+
 projects[donation][type] = "theme"
 projects[donation][subdir] = "fond"
 projects[donation][download][type] = "git"
 projects[donation][download][url] = "https://github.com/vih/donation-theme.git"
 projects[donation][download][branch] = "7.x-1.x"
-projects[donation][download][revision] = "58c009b8c641094487ad0b9a59fc44af1e03976a"
+projects[donation][download][revision] = "a2dd2754ed7bdebe435cebb6a0a4b711c31199a8"
