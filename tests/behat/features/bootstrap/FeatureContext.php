@@ -6,7 +6,8 @@ use Behat\Behat\Context\ClosuredContextInterface,
     Behat\Behat\Exception\PendingException;
 use Behat\Gherkin\Node\PyStringNode,
     Behat\Gherkin\Node\TableNode;
-use Drupal\DrupalExtension\Context\DrupalContext;
+use Drupal\DrupalExtension\Context\DrupalContext,
+    Drupal\DrupalExtension\Context\RawDrupalContext;
 
 //
 // Require 3rd-party libraries here:
