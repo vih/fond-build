@@ -1,6 +1,14 @@
 api = 2
 core = 7.x
 
+; Contrib modules
+
+projects[commerce_billy][version] = "1.0"
+projects[commerce_billy][subdir] = "contrib"
+
+projects[commerce_billy_mail][version] = "1.0-beta3"
+projects[commerce_billy_mail][subdir] = "contrib"
+
 ; Custom modules
 
 projects[fond_admin][type] = "module"
