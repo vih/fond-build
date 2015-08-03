@@ -9,6 +9,9 @@ projects[commerce_billy][subdir] = "contrib"
 projects[commerce_billy_mail][version] = "1.0-beta3"
 projects[commerce_billy_mail][subdir] = "contrib"
 
+projects[mimemail][version] = "1.0-beta4"
+projects[mimemail][subdir] = "contrib"
+
 ; Custom modules
 
 projects[fond_admin][type] = "module"
