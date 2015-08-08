@@ -46,9 +46,6 @@ install:
   - drush dl panopoly_demo-1.x-dev
   - cd ../
 
-  # Setup files
-  - chmod -R 777 drupal/sites/all
-
   # Setup display for Selenium
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
