@@ -11,6 +11,11 @@ Feature: Anonymous user login
     Then I should see "Log out"
 
   @drush
-  Scenario: Office can use navbar
-    Given I am logged in as a user with the "authenticated" role
+  Scenario: Administrator can use navbar
+    Given I am logged in as a user with the "administrator" role
+    Then I should see the link "Log out"
+
+  @drush
+  Scenario: Editor can use navbar (role for the Office)
+    Given I am logged in as a user with the "editor" role
     Then I should see the link "Log out"

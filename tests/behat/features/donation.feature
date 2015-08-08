@@ -11,7 +11,7 @@ Feature: Anonymous user can make a donation
       And I should see "Kontant"
     When I follow "Kontant"
     When I select "10" from "line_item_fields[commerce_donate_amount][und][select]"
-    When I click "Add to cart"
+    When I press "Add to cart"
     Then I should see "Checkout"
       And I should see "Billing information"
       And I should see "CPR-nummer"
