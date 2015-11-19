@@ -18,8 +18,11 @@ libraries[dompdf][overwrite] = TRUE
 projects[commerce_billy_mail][subdir] = contrib
 projects[commerce_billy_mail][version] = 1.0-beta5
 
-projects[mimemail][version] = "1.0-beta4"
-projects[mimemail][subdir] = "contrib"
+projects[mimemail][subdir] = contrib
+projects[mimemail][version] = 1.0-beta4
+
+projects[mailsystem][subdir] = contrib
+projects[mailsystem][version] = 2.34
 
 ; Custom modules
 
