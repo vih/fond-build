@@ -3,11 +3,15 @@ core = 7.x
 
 ; Contrib modules
 
-projects[commerce_billy][version] = "1.0"
-projects[commerce_billy][subdir] = "contrib"
+projects[commerce_billy][subdir] = contrib
+projects[commerce_billy][version] = 1.x-dev
+projects[commerce_billy][download][type] = git
+projects[commerce_billy][download][branch] = 1.x
+projects[commerce_billy][download][revision] = 814ec79
+projects[commerce_billy][patch][2093643] = https://www.drupal.org/files/issues/0002-Allow-PDF-s-filename-configuration-and-add-toke.patch
 
-projects[commerce_billy_mail][version] = "1.0-beta3"
-projects[commerce_billy_mail][subdir] = "contrib"
+projects[commerce_billy_mail][subdir] = contrib
+projects[commerce_billy_mail][version] = 1.0-beta5
 
 projects[mimemail][version] = "1.0-beta4"
 projects[mimemail][subdir] = "contrib"
