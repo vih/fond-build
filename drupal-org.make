@@ -18,8 +18,11 @@ libraries[dompdf][overwrite] = TRUE
 projects[commerce_billy_mail][subdir] = contrib
 projects[commerce_billy_mail][version] = 1.0-beta5
 
-projects[mimemail][subdir] = contrib
-projects[mimemail][version] = 1.0-beta4
+projects[mailsystem][subdir] = contrib
+projects[mailsystem][version] = 2.x-dev
+projects[mailsystem][download][type] = git
+projects[mailsystem][download][revision] = 966e13e
+projects[mailsystem][download][branch] = 7.x-2.x
 
 projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
