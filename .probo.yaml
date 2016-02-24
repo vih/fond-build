@@ -1,0 +1,13 @@
+steps:
+  - name: Probo site setup
+    plugin: Drupal
+    makeFile: build-fond.make
+    profileName: panopoly
+    runInstall: true
+    databaseUpdates: true
+    revertFeatures: true
+  - name: Enabling deploy module
+    command: 'drush --root="/var/www/html" en fond_deploy -y'
+  - name: Enable stage_file_proxy
+    command: 'drush --root="/var/www/html" en stage_file_proxy -y'
+    command: 'drush variable-set stage_file_proxy_origin "http://fond.vih.dk"'
