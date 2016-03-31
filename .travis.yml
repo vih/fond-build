@@ -44,7 +44,7 @@ install:
 
   # Test the current branch
   - cd drupal
-  - drush make --prepare-install profiles/fond-build/build-fond.make --yes
+  - drush make --prepare-install profiles/fond-build/build-fond-dev.make --yes
   - drush dl panopoly_demo-1.x-dev
   - cd ../
 
