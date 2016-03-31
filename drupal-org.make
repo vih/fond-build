@@ -12,7 +12,7 @@ projects[commerce_billy][patch][2093643] = https://www.drupal.org/files/issues/0
 
 libraries[dompdf][directory_name] = dompdf
 libraries[dompdf][download][type] = get
-libraries[dompdf][download][url] = http://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz
+libraries[dompdf][download][url] = https://github.com/dompdf/dompdf/releases/download/v0.6.2/dompdf-0.6.2.zip
 libraries[dompdf][overwrite] = TRUE
 
 projects[commerce_billy_mail][subdir] = contrib
@@ -41,14 +41,14 @@ projects[fond_commerce][subdir] = "fond"
 projects[fond_commerce][download][type] = "git"
 projects[fond_commerce][download][url] = "https://github.com/vih/fond_commerce.git"
 projects[fond_commerce][download][branch] = "7.x-1.x"
-projects[fond_commerce][download][revision] = "cc7f980"
+projects[fond_commerce][download][revision] = "18ae91e"
 
 projects[fond_deploy][type] = "module"
 projects[fond_deploy][subdir] = "fond"
 projects[fond_deploy][download][type] = "git"
 projects[fond_deploy][download][url] = "https://github.com/vih/fond_deploy.git"
 projects[fond_deploy][download][branch] = "7.x-1.x"
-projects[fond_deploy][download][revision] = "c8527dc"
+projects[fond_deploy][download][revision] = "886a5d6"
 
 projects[vih_plugins][type] = "module"
 projects[vih_plugins][subdir] = "vih"
