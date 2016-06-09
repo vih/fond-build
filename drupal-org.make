@@ -48,7 +48,7 @@ projects[fond_deploy][subdir] = "fond"
 projects[fond_deploy][download][type] = "git"
 projects[fond_deploy][download][url] = "https://github.com/vih/fond_deploy.git"
 projects[fond_deploy][download][branch] = "7.x-1.x"
-projects[fond_deploy][download][revision] = "886a5d6"
+projects[fond_deploy][download][revision] = "e2033b7"
 
 projects[vih_plugins][type] = "module"
 projects[vih_plugins][subdir] = "vih"
