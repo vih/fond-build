@@ -1,0 +1,14 @@
+---
+# Beetbox settings.
+beet_project: drupal
+beet_domain: fond.local
+beet_root: "{{ beet_base }}/docroot"
+beet_site_name: fond.vih.dk
+
+# Drupal settings.
+drupal_build_makefile: yes
+drupal_makefile_path: "{{ beet_base }}/build-fond-dev.make"
+drupal_install_profile: panopoly
+drupal_install_site: yes
+drupal_account_name: admin
+drupal_account_pass: admin
