@@ -4,11 +4,7 @@ core = 7.x
 ; Contrib modules
 
 projects[commerce_billy][subdir] = contrib
-projects[commerce_billy][version] = 1.x-dev
-projects[commerce_billy][download][type] = git
-projects[commerce_billy][download][branch] = 1.x
-projects[commerce_billy][download][revision] = 814ec79
-projects[commerce_billy][patch][2093643] = https://www.drupal.org/files/issues/0002-Allow-PDF-s-filename-configuration-and-add-toke.patch
+projects[commerce_billy][version] = 1.1
 
 libraries[dompdf][directory_name] = dompdf
 libraries[dompdf][download][type] = get
@@ -41,14 +37,14 @@ projects[fond_commerce][subdir] = "fond"
 projects[fond_commerce][download][type] = "git"
 projects[fond_commerce][download][url] = "https://github.com/vih/fond_commerce.git"
 projects[fond_commerce][download][branch] = "7.x-1.x"
-projects[fond_commerce][download][revision] = "18ae91e"
+projects[fond_commerce][download][revision] = "6d87468"
 
 projects[fond_deploy][type] = "module"
 projects[fond_deploy][subdir] = "fond"
 projects[fond_deploy][download][type] = "git"
 projects[fond_deploy][download][url] = "https://github.com/vih/fond_deploy.git"
 projects[fond_deploy][download][branch] = "7.x-1.x"
-projects[fond_deploy][download][revision] = "886a5d6"
+projects[fond_deploy][download][revision] = "e2033b7"
 
 projects[vih_plugins][type] = "module"
 projects[vih_plugins][subdir] = "vih"
