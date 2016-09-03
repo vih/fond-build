@@ -23,6 +23,9 @@ projects[mailsystem][download][branch] = 7.x-2.x
 projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
+projects[xautoload][subdir] = contrib
+projects[xautoload][version] = 5.7
+
 ; Custom modules
 
 projects[fond_admin][type] = "module"
@@ -45,6 +48,25 @@ projects[fond_deploy][download][type] = "git"
 projects[fond_deploy][download][url] = "https://github.com/vih/fond_deploy.git"
 projects[fond_deploy][download][branch] = "7.x-1.x"
 projects[fond_deploy][download][revision] = "e2033b7"
+
+projects[fond_membership][type] = "module"
+projects[fond_membership][subdir] = "fond"
+projects[fond_membership][download][type] = "git"
+projects[fond_membership][download][url] = "https://github.com/vih/fond_membership.git"
+projects[fond_membership][download][branch] = "7.x-1.x"
+projects[fond_membership][download][revision] = "46db801"
+
+projects[fond_membership_reepay][type] = "module"
+projects[fond_membership_reepay][subdir] = "fond"
+projects[fond_membership_reepay][download][type] = "git"
+projects[fond_membership_reepay][download][url] = "https://github.com/vih/fond_membership_reepay.git"
+projects[fond_membership_reepay][download][branch] = "7.x-1.x"
+projects[fond_membership_reepay][download][revision] = "64b966a"
+
+libraries[reepay-php-sdk][directory_name] = reepay-php-sdk
+libraries[reepay-php-sdk][download][type] = get
+libraries[reepay-php-sdk][download][url] = https://github.com/lsolesen/reepay-php-sdk/archive/1.0.0.zip
+libraries[reepay-php-sdk][overwrite] = TRUE
 
 projects[vih_plugins][type] = "module"
 projects[vih_plugins][subdir] = "vih"
