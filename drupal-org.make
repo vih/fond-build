@@ -1,9 +1,10 @@
 api = 2
 core = 7.x
 
+defaults[projects][subdir] = contrib
+
 ; Contrib modules
 
-projects[commerce_billy][subdir] = contrib
 projects[commerce_billy][version] = 1.1
 
 libraries[dompdf][directory_name] = dompdf
@@ -11,19 +12,15 @@ libraries[dompdf][download][type] = get
 libraries[dompdf][download][url] = https://github.com/dompdf/dompdf/releases/download/v0.6.2/dompdf-0.6.2.zip
 libraries[dompdf][overwrite] = TRUE
 
-projects[commerce_billy_mail][subdir] = contrib
 projects[commerce_billy_mail][version] = 1.0-beta5
 
-projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.x-dev
 projects[mailsystem][download][type] = git
 projects[mailsystem][download][revision] = 966e13e
 projects[mailsystem][download][branch] = 7.x-2.x
 
-projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
-projects[xautoload][subdir] = contrib
 projects[xautoload][version] = 5.7
 
 ; Custom modules
