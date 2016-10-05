@@ -5,6 +5,7 @@ includes[] = drupal-org-core.make
 
 ; Panopoly
 projects[panopoly][type] = profile
+projects[panopoly][subdir] = ""
 projects[panopoly][version] = 1.x-dev
 projects[panopoly][download][type] = git
 projects[panopoly][download][revision] = d0c3322
