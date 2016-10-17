@@ -4,6 +4,14 @@ core = 7.x
 defaults[projects][subdir] = contrib
 
 ; Panopoly
+projects[panopoly][type] = profile
+projects[panopoly][subdir] = ""
+projects[panopoly][version] = 1.x-dev
+projects[panopoly][download][type] = git
+projects[panopoly][download][revision] = d0c3322
+projects[panopoly][download][branch] = 7.x-1.x
+
+; Panopoly
 
 projects[panopoly_demo][version] = 1.38
 projects[panopoly_demo][subdir] = panopoly
