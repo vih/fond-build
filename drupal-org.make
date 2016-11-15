@@ -1,9 +1,33 @@
 api = 2
 core = 7.x
 
+defaults[projects][subdir] = contrib
+
+; Panopoly
+projects[panopoly][type] = profile
+projects[panopoly][subdir] = ""
+projects[panopoly][version] = 1.x-dev
+projects[panopoly][download][type] = git
+projects[panopoly][download][revision] = d0c3322
+projects[panopoly][download][branch] = 7.x-1.x
+
+; Panopoly
+
+projects[panopoly_demo][version] = 1.38
+projects[panopoly_demo][subdir] = panopoly
+
+projects[panopoly_faq][version] = 1.1
+projects[panopoly_faq][subdir] = panopoly
+
+projects[panopoly_news][subdir] = panopoly
+projects[panopoly_news][version] = 1.2
+projects[panopoly_news][patch][2256489] = http://drupal.org/files/issues/issue-2256489.patch
+
+projects[panopoly_seo][version] = 1.0-beta8
+projects[panopoly_seo][subdir] = panopoly
+
 ; Contrib modules
 
-projects[commerce_billy][subdir] = contrib
 projects[commerce_billy][version] = 1.1
 
 libraries[dompdf][directory_name] = dompdf
@@ -11,19 +35,15 @@ libraries[dompdf][download][type] = get
 libraries[dompdf][download][url] = https://github.com/dompdf/dompdf/releases/download/v0.6.2/dompdf-0.6.2.zip
 libraries[dompdf][overwrite] = TRUE
 
-projects[commerce_billy_mail][subdir] = contrib
 projects[commerce_billy_mail][version] = 1.0-beta5
 
-projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.x-dev
 projects[mailsystem][download][type] = git
 projects[mailsystem][download][revision] = 966e13e
 projects[mailsystem][download][branch] = 7.x-2.x
 
-projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
-projects[xautoload][subdir] = contrib
 projects[xautoload][version] = 5.7
 
 ; Custom modules
