@@ -6,14 +6,11 @@ defaults[projects][subdir] = contrib
 ; Panopoly
 projects[panopoly][type] = profile
 projects[panopoly][subdir] = ""
-projects[panopoly][version] = 1.x-dev
-projects[panopoly][download][type] = git
-projects[panopoly][download][revision] = d0c3322
-projects[panopoly][download][branch] = 7.x-1.x
+projects[panopoly][version] = 1.41
 
 ; Panopoly
 
-projects[panopoly_demo][version] = 1.38
+projects[panopoly_demo][version] = 1.41
 projects[panopoly_demo][subdir] = panopoly
 
 projects[panopoly_faq][version] = 1.1
@@ -81,7 +78,7 @@ projects[fond_membership_reepay][subdir] = "fond"
 projects[fond_membership_reepay][download][type] = "git"
 projects[fond_membership_reepay][download][url] = "https://github.com/vih/fond_membership_reepay.git"
 projects[fond_membership_reepay][download][branch] = "7.x-1.x"
-projects[fond_membership_reepay][download][revision] = "64b966a"
+projects[fond_membership_reepay][download][revision] = "34ad972"
 
 libraries[reepay-php-sdk][directory_name] = reepay-php-sdk
 libraries[reepay-php-sdk][download][type] = get
