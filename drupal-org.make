@@ -25,6 +25,24 @@ projects[panopoly_seo][subdir] = panopoly
 
 ; Contrib modules
 
+projects[addressfield][version] = 1.2
+
+projects[addressfield_tokens][version] = 1.5
+
+projects[colorizer][version] = 1.10
+
+projects[commerce][version] = 1.13
+projects[commerce][patch][840786] = http://drupal.org/files/840786-add-account-info-2.patch
+
+projects[commerce_addressbook][version] = 2.0-rc9
+
+projects[commerce_autosku][version] = 1.1
+
+projects[commerce_backoffice][version] = 1.5
+
+projects[commerce_bank_transfer][version] = 1.0-alpha3
+projects[commerce_bank_transfer][patch][1788790] = http://drupal.org/files/issue-1788790.patch
+
 projects[commerce_billy][version] = 1.1
 
 libraries[dompdf][directory_name] = dompdf
@@ -34,12 +52,76 @@ libraries[dompdf][overwrite] = TRUE
 
 projects[commerce_billy_mail][version] = 1.0-beta5
 
+projects[commerce_cart_expiration][version] = 1.4
+
+projects[commerce_donate][version] = 1.x-dev
+projects[commerce_donate][download][type] = git
+projects[commerce_donate][download][branch] = 1.x
+projects[commerce_donate][download][revision] = 18a6b8e
+projects[commerce_donate][patch][2062285] = https://www.drupal.org/files/commerce_donate-Fix-default-in-checkout-2062285-3.patch
+projects[commerce_donate][patch][1851196] = https://www.drupal.org/files/issues/issue-1851196_1.patch
+projects[commerce_donate][patch][2278659] = https://www.drupal.org/files/issues/issue-2278659_1.patch
+
+projects[commerce_features][version] = 1.2
+
+projects[commerce_google_analytics][subdir] = contrib
+projects[commerce_google_analytics][version] = 1.1
+
+projects[commerce_reports][version] = 3.0-beta2
+
+projects[diff][version] = 3.x-dev
+projects[diff][download][type] = git
+projects[diff][download][revision] = 29ca19a003bfa1cb3fd4a86fe20aacae72e90767
+projects[diff][download][branch] = 7.x-3.x
+
+projects[eva][version] = 1.x-dev
+projects[eva][download][type] = git
+projects[eva][download][revision] = 43eaba47defcf62cd6cff48c819689b68befa59a
+projects[eva][download][branch] = 7.x-1.x
+
+projects[google_analytics][version] = 2.3
+
+projects[i18n][version] = 1.13
+
+projects[inline_entity_form][version] = 1.8
+
+projects[logintoboggan][version] = 1.5
+
+projects[mailchimp][version] = 2.13
+
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "https://github.com/lsolesen/mailchimp-api-class/archive/v.1.3.2.zip"
+libraries[mailchimp][directory_name] = "mailchimp"
+libraries[mailchimp][destination] = "libraries"
+
 projects[mailsystem][version] = 2.x-dev
 projects[mailsystem][download][type] = git
 projects[mailsystem][download][revision] = 966e13e
 projects[mailsystem][download][branch] = 7.x-2.x
 
 projects[mailsystem][version] = 2.34
+
+projects[panels_extra_styles][version] = 1.1
+
+projects[quickpay][version] = 2.0
+
+projects[rules][version] = 2.9
+
+projects[select_or_other][version] = 2.22
+
+projects[variable][version] = 2.5
+
+projects[views_data_export][version] = 3.1
+
+projects[views_megarow][version] = 1.6
+
+projects[views_responsive_grid][version] = 1.3
+
+projects[visualization][version] = 1.0-beta2
+
+projects[webform][version] = 4.14
+
+projects[webform_mailchimp][version] = 2.0-beta1
 
 projects[wysiwyg][version] = 2.x-dev
 projects[wysiwyg][download][type] = git
@@ -105,3 +187,12 @@ projects[donation][download][type] = "git"
 projects[donation][download][url] = "https://github.com/vih/donation-theme.git"
 projects[donation][download][branch] = "7.x-1.x"
 projects[donation][download][revision] = "a2dd2754ed7bdebe435cebb6a0a4b711c31199a8"
+
+projects[radix_colorizer][version] = 1.x-dev
+projects[radix_colorizer][download][type] = git
+projects[radix_colorizer][download][revision] = 29321ae 
+projects[radix_colorizer][download][branch] = 7.x-1.x
+
+projects[radix_stanley][version] = 1.4
+
+projects[radix_views][version] = 1.0
