@@ -41,6 +41,11 @@ projects[mailsystem][download][branch] = 7.x-2.x
 
 projects[mailsystem][version] = 2.34
 
+projects[wysiwyg][version] = 2.x-dev
+projects[wysiwyg][download][type] = git
+projects[wysiwyg][download][revision] = ee64524b3edb2aa21098a2309b0736e292010247
+projects[wysiwyg][download][branch] = 7.x-2.x
+
 projects[xautoload][version] = 5.7
 
 ; Custom modules
