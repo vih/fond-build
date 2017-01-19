@@ -1,9 +1,30 @@
 api = 2
 core = 7.x
 
+defaults[projects][subdir] = contrib
+
+; Panopoly
+projects[panopoly][type] = profile
+projects[panopoly][subdir] = ""
+projects[panopoly][version] = 1.41
+
+; Panopoly
+
+projects[panopoly_demo][version] = 1.41
+projects[panopoly_demo][subdir] = panopoly
+
+projects[panopoly_faq][version] = 1.1
+projects[panopoly_faq][subdir] = panopoly
+
+projects[panopoly_news][subdir] = panopoly
+projects[panopoly_news][version] = 1.2
+projects[panopoly_news][patch][2256489] = http://drupal.org/files/issues/issue-2256489.patch
+
+projects[panopoly_seo][version] = 1.0-beta8
+projects[panopoly_seo][subdir] = panopoly
+
 ; Contrib modules
 
-projects[commerce_billy][subdir] = contrib
 projects[commerce_billy][version] = 1.1
 
 libraries[dompdf][directory_name] = dompdf
@@ -11,19 +32,20 @@ libraries[dompdf][download][type] = get
 libraries[dompdf][download][url] = https://github.com/dompdf/dompdf/releases/download/v0.6.2/dompdf-0.6.2.zip
 libraries[dompdf][overwrite] = TRUE
 
-projects[commerce_billy_mail][subdir] = contrib
 projects[commerce_billy_mail][version] = 1.0-beta5
 
-projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.x-dev
 projects[mailsystem][download][type] = git
 projects[mailsystem][download][revision] = 966e13e
 projects[mailsystem][download][branch] = 7.x-2.x
 
-projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
-projects[xautoload][subdir] = contrib
+rojects[wysiwyg][version] = 2.x-dev
+projects[wysiwyg][download][type] = git
+projects[wysiwyg][download][revision] = ee64524b3edb2aa21098a2309b0736e292010247
+projects[wysiwyg][download][branch] = 7.x-2.x
+
 projects[xautoload][version] = 5.7
 
 ; Custom modules
@@ -61,7 +83,7 @@ projects[fond_membership_reepay][subdir] = "fond"
 projects[fond_membership_reepay][download][type] = "git"
 projects[fond_membership_reepay][download][url] = "https://github.com/vih/fond_membership_reepay.git"
 projects[fond_membership_reepay][download][branch] = "7.x-1.x"
-projects[fond_membership_reepay][download][revision] = "64b966a"
+projects[fond_membership_reepay][download][revision] = "34ad972"
 
 libraries[reepay-php-sdk][directory_name] = reepay-php-sdk
 libraries[reepay-php-sdk][download][type] = get
