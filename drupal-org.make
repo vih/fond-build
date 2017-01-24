@@ -29,6 +29,8 @@ projects[addressfield][version] = 1.2
 
 projects[addressfield_tokens][version] = 1.5
 
+projects[adminrole][version] = 1.1
+
 projects[colorizer][version] = 1.10
 
 projects[commerce][version] = 1.13
