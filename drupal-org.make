@@ -139,7 +139,7 @@ projects[fond_admin][subdir] = "fond"
 projects[fond_admin][download][type] = "git"
 projects[fond_admin][download][url] = "https://github.com/vih/fond_admin.git"
 projects[fond_admin][download][branch] = "7.x-1.x"
-projects[fond_admin][download][revision] = "5687b67"
+projects[fond_admin][download][revision] = "32e982f"
 
 projects[fond_commerce][type] = "module"
 projects[fond_commerce][subdir] = "fond"
