@@ -69,6 +69,8 @@ projects[commerce_features][version] = 1.2
 projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.1
 
+projects[commerce_migrate][version] = 1.2
+
 projects[commerce_reports][version] = 3.0-beta2
 
 projects[diff][version] = 3.x-dev
