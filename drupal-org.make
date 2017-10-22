@@ -6,18 +6,18 @@ defaults[projects][subdir] = contrib
 ; Panopoly
 projects[panopoly][type] = profile
 projects[panopoly][subdir] = ""
-projects[panopoly][version] = 1.46
+projects[panopoly][version] = 1.47
 
 ; Panopoly
 
-projects[panopoly_demo][version] = 1.46
+projects[panopoly_demo][version] = 1.47
 projects[panopoly_demo][subdir] = panopoly
 
 projects[panopoly_faq][version] = 1.1
 projects[panopoly_faq][subdir] = panopoly
 
-projects[panopoly_news][subdir] = panopoly
 projects[panopoly_news][version] = 1.2
+projects[panopoly_news][subdir] = panopoly
 projects[panopoly_news][patch][2256489] = http://drupal.org/files/issues/issue-2256489.patch
 
 projects[panopoly_seo][subdir] = panopoly
